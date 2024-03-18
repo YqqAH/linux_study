@@ -1,0 +1,3 @@
+파일 bbq.txt의 owner가 carrot이고 owner group이 jdragon이며
+other은 owner가 아니거나 owner group에 속하지 않은 모든 유저를 가리킨다.
+주어진 문제에서 inho, onnew, tigerstar가 이에 해당한다.

@@ -1,0 +1,10 @@
+/home/ssafy 의 부모 디렉토리인
+/home 에서 ls -al로 확인한 결과
+drwxr-xr-x  4 root    root    4096  3월 18 13:14 .
+drwxr-xr-x 20 root    root    4096  3월 12 11:51 ..
+drwxr-xr-x  2 jdragon jdragon 4096  3월 18 13:14 jdragon
+drwxr-xr-x 18 ssafy   ssafy   4096  3월 18 13:11 ssafy
+위와 같은 내용이 출력되었다.
+이를 바탕으로 ssafy의 디렉토리의 경우 others의 권한이 read와 exectue 밖에 없기 때문에
+사용자 jdragon이 /home/ssafy 디렉토리에서 touch bbq.txt를 통해 write를 하기 위해 시도할 경우
+해당 요청이 권한 없음으로 인해 거부된다.

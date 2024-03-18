@@ -1,0 +1,7 @@
+bbq.txt 파일의 owner에 대한 권한이 -w-이고
+owner group에 대한 권한이 ---이고
+other에 대한 권한이 -w-이므로
+해당 파일에 대해 read 권한이 있는 사용자는 owner와 other이다.
+주어진 문제에서 owner는 onnew이고, owner group이 jdragon이므로
+해당 파일에 대해 write 권한이 있는 사용자는 owner group에 속한 jdragon을 제외한 다른 모든 사용자이다.
+따라서, carrot, inho, onnew, tigerstar가 해당 파일에 대한 write 권한이 있다.

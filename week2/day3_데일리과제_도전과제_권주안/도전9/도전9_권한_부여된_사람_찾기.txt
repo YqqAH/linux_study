@@ -1,0 +1,12 @@
+1. 	aaa 파일의 read 권한을 가진 user는 owner와 other이다.
+	aaa 파일의 owner는 carrot이고 owner group은 web이므로
+	aaa 파일의 read 권한을 가진 user는 carrot, jplace이고 총 2명이다.
+2. 	bbb 파일의 write 권한을 가진 user는 owner와 owner group이다.
+	bbb 파일의 owner는 root이고 owner group은 embedded이므로
+	bbb 파일의 write 권한을 가진 user는 carrot, jplace, inho이고 총 3명이다.
+3. 	ccc 파일의 execute 권한을 가진 user는 owner와 other이다.
+	ccc 파일의 owner는 jplace이고 owner group은 tigerstar이므로
+	ccc 파일의 execute 권한을 가진 user는 carrot, jplace, inho, onnew이고 총 4명이다.
+4. 	ddd 파일의 read 권한을 가진 user는 other이다.
+	ddd 파일의 owner는 inho이고 owner group은 temp이므로
+	ddd 파일의 read 권한을 가진 user는 모든 유저이고 총 5명이다.

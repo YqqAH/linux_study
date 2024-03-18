@@ -1,0 +1,7 @@
+bbq.txt 파일의 owner에 대한 권한이 ---이고
+owner group에 대한 권한이 r-x이고
+other에 대한 권한이 r--이므로
+해당 파일에 대해 read 권한이 있는 사용자는 owner group과 other이다.
+주어진 문제에서 owner는 inho이고, owner group이 linuxteam이므로
+해당 파일에 대해 read 권한이 있는 사용자는 owner인 inho를 제외한 다른 모든 사용자이다.
+따라서, carrot, jdragon, onnew, tigerstar가 해당 파일에 대한 read 권한이 있다.

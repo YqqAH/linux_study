@@ -1,0 +1,3 @@
+파일 bbq.txt의 owner group이 embeddedteam이므로
+other은 embeddedteam에 속하지 않은 모든 유저를 가리킨다.
+주어진 문제에서 onnew와 tigerstar가 이에 해당한다.
